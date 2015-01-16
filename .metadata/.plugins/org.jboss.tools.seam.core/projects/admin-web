@@ -1,0 +1,2537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seam-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <namespaces>
+  <namespace package="org.jboss.seam.theme"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/theme"/>
+  <namespace package="org.jboss.seam.document"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/document"/>
+  <namespace package="org.jboss.seam.drools"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/drools"/>
+  <namespace package="org.jboss.seam.international"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/international"/>
+  <namespace package="org.jboss.seam.navigation"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/navigation"/>
+  <namespace package="org.jboss.seam.web"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/web"/>
+  <namespace package="org.jboss.seam.async"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/async"/>
+  <namespace package="org.jboss.seam.cache"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/cache"/>
+  <namespace package="org.jboss.seam.ui"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-ui/2.2.2.Final/jboss-seam-ui-2.2.2.Final.jar" uri="http://jboss.com/products/seam/ui"/>
+  <namespace package="org.jboss.seam.core"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/core"/>
+  <namespace package="org.jboss.seam.security.permission"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/security"/>
+  <namespace package="org.jboss.seam.security.management"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/security"/>
+  <namespace package="org.jboss.seam.security"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/security"/>
+  <namespace package="org.jboss.seam.ioc.guice"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-ioc/2.2.2.Final/jboss-seam-ioc-2.2.2.Final.jar" uri="http://jboss.com/products/seam/guice"/>
+  <namespace package="org.jboss.seam.jms"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/jms"/>
+  <namespace package="org.jboss.seam.ioc.spring"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-ioc/2.2.2.Final/jboss-seam-ioc-2.2.2.Final.jar" uri="http://jboss.com/products/seam/spring"/>
+  <namespace package="org.jboss.seam.excel"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-excel/2.2.2.Final/jboss-seam-excel-2.2.2.Final.jar" uri="http://jboss.com/products/seam/excel"/>
+  <namespace package="org.jboss.seam.captcha"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/captcha"/>
+  <namespace package="org.jboss.seam.transaction"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/transaction"/>
+  <namespace package="org.jboss.seam.bpm"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/bpm"/>
+  <namespace package="org.jboss.seam.jmx"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/jmx"/>
+  <namespace package="org.jboss.seam.framework"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/framework"/>
+  <namespace package="org.jboss.seam.mail"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/mail"/>
+  <namespace package="org.jboss.seam.persistence"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar" uri="http://jboss.com/products/seam/persistence"/>
+  <namespace package="org.jboss.seam.pdf"
+   path="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-pdf/2.2.2.Final/jboss-seam-pdf-2.2.2.Final.jar" uri="http://jboss.com/products/seam/pdf"/>
+ </namespaces>
+ <paths>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/hibernate/hibernate-validator/3.1.0.GA/hibernate-validator-3.1.0.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/security/jbossxacml/2.0.8.Final/jbossxacml-2.0.8.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/javax/transaction/jta/1.1/jta-1.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/ws/xmlschema/xmlschema-core/2.0.3/xmlschema-core-2.0.3.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/google/http-client/google-http-client-jackson/1.14.1-beta/google-http-client-jackson-1.14.1-beta.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/junit/junit/4.10/junit-4.10.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/el/jboss-el-api_2.2_spec/1.0.2.Final/jboss-el-api_2.2_spec-1.0.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/hibernate/hibernate-core/3.3.0.SP1/hibernate-core-3.3.0.SP1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/cxf/cxf-api/2.6.4/cxf-api-2.6.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-excel/2.2.2.Final/jboss-seam-excel-2.2.2.Final.jar">
+   <components>
+    <component class="java" name="org.jboss.seam.excel.excelFactory"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-web" type="org.jboss.seam.excel.ExcelFactory"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.excel.exporter.excelExporter" precedence="0" scope="EVENT">
+     <id class="type" project="admin-web" type="org.jboss.seam.excel.exporter.ExcelExporter"/>
+    </component>
+   </components>
+  </path>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-jbas-common/2.5.2.Final/picketlink-jbas-common-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/ws/jbossws-spi/1.4.1.GA/jbossws-spi-1.4.1.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/ant/ant-launcher/1.7.1/ant-launcher-1.7.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/cxf/cxf-rt-databinding-jaxb/2.6.4/cxf-rt-databinding-jaxb-2.6.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/lowagie/itext-rtf/2.1.2/itext-rtf-2.1.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/sun/facelets/jsf-facelets/1.1.15.B1/jsf-facelets-1.1.15.B1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/openid4java/openid4java-nodeps/0.9.6/openid4java-nodeps-0.9.6.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/cxf/cxf-rt-core/2.6.4/cxf-rt-core-2.6.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-jbas7-single/2.5.2.Final/picketlink-jbas7-single-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/richfaces/framework/richfaces-api/3.3.3.Final/richfaces-api-3.3.3.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/commons-collections/commons-collections/3.2/commons-collections-3.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/richfaces/ui/richfaces-ui/3.3.3.Final/richfaces-ui-3.3.3.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-debug/2.2.2.Final/jboss-seam-debug-2.2.2.Final.jar">
+   <components>
+    <component class="java" name="org.jboss.seam.debug.contexts"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.debug.Contexts"/>
+    </component>
+    <component class="java" name="org.jboss.seam.debug.introspector"
+     precedence="0" scope="UNSPECIFIED">
+     <id class="type" project="admin-web" type="org.jboss.seam.debug.Introspector"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.debug.jsf.debugRedirect" precedence="0" scope="UNSPECIFIED">
+     <id class="type" project="admin-web" type="org.jboss.seam.debug.jsf.DebugRedirect"/>
+    </component>
+   </components>
+  </path>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/ant/ant/1.7.1/ant-1.7.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/wutka/dtdparser/1.21/dtdparser-1.21.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/jbossxb/2.0.3.GA/jbossxb-2.0.3.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-ioc/2.2.2.Final/jboss-seam-ioc-2.2.2.Final.jar">
+   <components>
+    <component class="java" name="org.jboss.seam.ioc.guice.init"
+     precedence="10" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ioc.guice.GuiceInit"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-web" type="org.jboss.seam.ioc.guice.GuiceInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.ioc.guice.injector"
+     precedence="10" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ioc.guice.Injector"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="createInjector" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getInjector" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ioc.spring.contextLoader" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ioc.spring.ContextLoader"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ioc.spring.springELResolver" precedence="10" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ioc.spring.SpringELResolver"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="initialize" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.async.dispatcher"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ioc.spring.SpringTaskExecutorDispatcher"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.transaction" precedence="10" scope="EVENT">
+     <id class="type" project="admin-web" type="org.jboss.seam.ioc.spring.SpringTransaction"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="cleanupCurrentTransaction" params=""/>
+      </method>
+     </methods>
+    </component>
+   </components>
+  </path>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-social/2.5.2.Final/picketlink-social-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/codehaus/jackson/jackson-core-asl/1.9.9/jackson-core-asl-1.9.9.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/javax/activation/activation/1.1.1/activation-1.1.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-ui/2.2.2.Final/jboss-seam-ui-2.2.2.Final.jar">
+   <components>
+    <component class="java" name="org.jboss.seam.ui.entityLoader"
+     precedence="10" scope="STATELESS">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.HibernateEntityLoader"/>
+    </component>
+    <component class="java" name="org.jboss.seam.ui.entityLoader"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.JpaEntityLoader"/>
+    </component>
+    <component class="java" name="org.jboss.seam.ui.EntityConverter"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.EntityConverter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.ui.renderStampStore"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.RenderStampStore"/>
+    </component>
+    <component class="java" name="org.jboss.seam.ui.clientUidSelector"
+     precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.ClientUidSelector"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="onCreate" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.entityIdentifierStore" precedence="0" scope="PAGE">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.EntityIdentifierStore"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.graphicImage.image"
+     precedence="0" scope="UNSPECIFIED">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.graphicImage.Image"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.graphicImage.graphicImageResource"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.graphicImage.GraphicImageResource"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.graphicImage.graphicImageStore"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.graphicImage.GraphicImageStore"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.web.ajax4jsfFilterInstantiator"
+     precedence="10" scope="STATELESS">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.filter.Ajax4jsfFilterInstantiator"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.resource.webResource" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.resource.WebResource"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.facelet.facesContextFactory"
+     precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.facelet.RendererFacesContextFactory"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.renderer"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.facelet.FaceletsRenderer"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.facelet.faceletsJBossLogging"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.facelet.FaceletsJBossLogging"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.facelet.mockServletContext" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.facelet.ServletContextManager"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getServletContext" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.facelet.faceletCompiler" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.facelet.FaceletCompiler"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="unwrap" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.ui.facelet.mockHttpSession" precedence="20" scope="SESSION">
+     <id class="type" project="admin-web" type="org.jboss.seam.ui.facelet.HttpSessionManager"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getSession" params=""/>
+      </method>
+     </methods>
+    </component>
+   </components>
+  </path>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/richfaces/framework/richfaces-impl/3.3.3.Final/richfaces-impl-3.3.3.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/ws/jbossws-common/1.4.1.GA/jbossws-common-1.4.1.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.0.Final/jboss-servlet-api_3.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-idm-api/2.5.2.Final/picketlink-idm-api-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/logging/jboss-logging-spi/2.0.5.GA/jboss-logging-spi-2.0.5.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/sun/faces/jsf-api/2.2.1/jsf-api-2.2.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/google/http-client/google-http-client/1.14.1-beta/google-http-client-1.14.1-beta.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/jboss-reflect/2.0.2.GA/jboss-reflect-2.0.2.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/jboss-common-core/2.2.9.GA/jboss-common-core-2.2.9.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/jboss/jaxbintros/jboss-jaxb-intros/1.0.2.GA/jboss-jaxb-intros-1.0.2.GA.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-federation/2.5.2.Final/picketlink-federation-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-common/2.5.2.Final/picketlink-common-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/google/oauth-client/google-oauth-client/1.14.1-beta/google-oauth-client-1.14.1-beta.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/commons-codec/commons-codec/1.3/commons-codec-1.3.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/ru/cryptopro/ssl/SSL/1.0.53/SSL-1.0.53.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/xml/ws/jboss-jaxws-api_2.2_spec/2.0.1.Final/jboss-jaxws-api_2.2_spec-2.0.1.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/cxf/cxf-rt-frontend-simple/2.6.4/cxf-rt-frontend-simple-2.6.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/antlr/antlr/2.7.6/antlr-2.7.6.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/ru/cryptopro/JCPxml/1.0.53/JCPxml-1.0.53.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/cxf/cxf-rt-transports-http/2.6.4/cxf-rt-transports-http-2.6.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/codehaus/woodstox/woodstox-core-asl/4.1.4/woodstox-core-asl-4.1.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/google/apis/google-api-services-oauth2/v2-rev36-1.14.2-beta/google-api-services-oauth2-v2-rev36-1.14.2-beta.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/sun-jaxb/jaxb-api/2.1.9/jaxb-api-2.1.9.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketbox/picketbox/4.0.7.Final/picketbox-4.0.7.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/ru/crypto/XMLDSigRI/2.0/XMLDSigRI-2.0.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/lowagie/itext/2.1.2/itext-2.1.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-idm-impl/2.5.2.Final/picketlink-idm-impl-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-mail/2.2.2.Final/jboss-seam-mail-2.2.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/google/api-client/google-api-client/1.14.1-beta/google-api-client-1.14.1-beta.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/cxf/cxf-rt-bindings-soap/2.6.4/cxf-rt-bindings-soap-2.6.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-tomcat-common/2.5.2.Final/picketlink-tomcat-common-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/commons-io/commons-io/2.2/commons-io-2.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/security/jacc/jboss-jacc-api_1.4_spec/1.0.0.Final/jboss-jacc-api_1.4_spec-1.0.0.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/json/json/20090211/json-20090211.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/sun/xml/bind/jaxb-impl/2.2.5.1/jaxb-impl-2.2.5.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam/2.2.2.Final/jboss-seam-2.2.2.Final.jar">
+   <components>
+    <component class="java"
+     name="org.jboss.seam.transaction.synchronizations" precedence="10" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.EjbSynchronizations"/>
+     <bean-types>
+      <bean-type name="STATEFUL">
+       <value-info value="true"/>
+      </bean-type>
+     </bean-types>
+     <methods>
+      <method comp-types="REMOVE;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.ejbTransaction" precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.EjbTransaction"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.transaction" precedence="10" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.EntityTransaction"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="validate" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.facesTransactionEvents"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.FacesTransactionEvents"/>
+     <methods>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="addTransactionFailedMessage" params="I,"/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.transaction" precedence="10" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.HibernateTransaction"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="validate" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.transaction" precedence="10" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.NoTransaction"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.RollbackInterceptor"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.synchronizations" precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.SeSynchronizations"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.transaction.transaction" precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.Transaction"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTransaction" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.transaction.TransactionInterceptor"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.BijectionInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.contexts"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.conversation"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Conversation"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.core.conversationEntries" precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ConversationEntries"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.core.ConversationIdGenerator" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ConversationIdGenerator"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ConversationInterceptor"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.core.conversationListFactory" precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ConversationList"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.core.conversationPropagation" precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ConversationPropagation"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.core.conversationStackFactory" precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ConversationStack"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ConversationalInterceptor"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.EventInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.events"
+     precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Events"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.expressions"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Expressions"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.init"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Init"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.interpolator"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Interpolator"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.locale"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Locale"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getLocale" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.core.manager"
+     precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Manager"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.MethodContextInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.resourceBundle"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ResourceBundle"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getResourceBundle" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.core.resourceLoader"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.ResourceLoader"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.SynchronizationInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.validators"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.core.Validators"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.ejb.RemoveInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.dataModels"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.DataModels"/>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.dateConverter"
+     precedence="0" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.DateConverter"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.facesContext"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.FacesContext"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getContext" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.core.expressions"
+     precedence="10" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.FacesExpressions"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.manager"
+     precedence="10" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.FacesManager"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.international.statusMessages" precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.FacesMessages"/>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.facesPage"
+     precedence="0" scope="PAGE">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.FacesPage"/>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.httpError"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.HttpError"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.isUserInRole"
+     precedence="10" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.IsUserInRole"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.parameters"
+     precedence="10" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.Parameters"/>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.redirect"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.Redirect"/>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.renderer"
+     precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.Renderer"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.resourceLoader"
+     precedence="10" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.ResourceLoader"/>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.switcher"
+     precedence="0" scope="PAGE">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.Switcher"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="createSelectItems" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.uiComponent"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.UiComponent"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getViewComponents" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.web.userPrincipal"
+     precedence="10" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.UserPrincipal"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getUserPrincipal" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.faces.validation"
+     precedence="0" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.faces.Validation"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.identifierPolicy" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.IdentifierPolicy"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.jpaPermissionStore" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.JpaPermissionStore"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="init" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.permissionManager" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.PermissionManager"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.permissionMapper" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.PermissionMapper"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.persistentPermissionResolver"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.PersistentPermissionResolver"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.ResolverChain"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.ruleBasedPermissionResolver"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.RuleBasedPermissionResolver"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="setUserAccountInSecurityContext" params=""/>
+      </method>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="unAuthenticate" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.jms.ManagedQueueSender"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getQueueSender" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.jms.ManagedTopicPublisher"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTopicPublisher" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.jms.queueConnection"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.jms.QueueConnection"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getQueueConnection" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="init" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.jms.queueSession"
+     precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.jms.QueueSession"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getQueueSession" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.jms.topicConnection"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.jms.TopicConnection"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTopicConnection" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="init" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.jms.topicSession"
+     precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.jms.TopicSession"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTopicSession" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.navigation.pages"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.navigation.Pages"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.navigation.safeActions"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.navigation.SafeActions"/>
+    </component>
+    <component class="java" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.Component"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.webservice.WSSecurityInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.theme.themeFactory"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.theme.Theme"/>
+    </component>
+    <component class="java" name="org.jboss.seam.theme.themeSelector"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.theme.ThemeSelector"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="initDefaultTheme" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.async.asynchronousExceptionHandler"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.async.AsynchronousExceptionHandler"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.async.AsynchronousInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.async.dispatcher"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.async.QuartzDispatcher"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="initScheduler" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.async.dispatcher"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.async.ThreadPoolDispatcher"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="startup" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.async.dispatcher"
+     precedence="0" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.async.TimerServiceDispatcher"/>
+     <bean-types>
+      <bean-type name="STATELESS">
+       <value-info value="true"/>
+      </bean-type>
+     </bean-types>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.management.roleAction" precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.action.RoleAction"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.management.roleSearch" precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.action.RoleSearch"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.management.userAction" precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.action.UserAction"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.management.userSearch" precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.action.UserSearch"/>
+    </component>
+    <component class="java" name="org.jboss.seam.core.locale"
+     precedence="10" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.international.Locale"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getLocale" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.international.localeConfig" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.international.LocaleConfig"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="initLocaleConfig" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.international.localeSelector" precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.international.LocaleSelector"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="initLocale" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.international.messagesFactory" precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.international.Messages"/>
+    </component>
+    <component class="java" name="org.jboss.seam.international.timeZone"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.international.TimeZone"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTimeZone" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.international.timeZoneSelector" precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.international.TimeZoneSelector"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="initTimeZone" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.international.timeZones" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.international.TimeZones"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="init" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTimeZones" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.cache.cacheProvider"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.cache.EhCacheProvider"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.cache.cacheProvider"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.cache.JbossCache2Provider"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.cache.cacheProvider"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.cache.JbossCacheProvider"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.cache.cacheProvider"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.cache.JbossPojoCacheProvider"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.jmx.jbossClusterMonitor" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.jmx.JBossClusterMonitor"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.EntityManagerFactory"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getEntityManagerFactory" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="shutdown" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="startup" params="Lorg.jboss.seam.Component;,"/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.EntityManagerProxyInterceptor"/>
+    </component>
+    <component class="java" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.Filter"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params="Lorg.jboss.seam.Component;,"/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.persistence.persistenceProvider"
+     precedence="10" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.HibernatePersistenceProvider"/>
+    </component>
+    <component class="java" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.HibernateSessionFactory"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="startup" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="shutdown" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getSessionFactory" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.HibernateSessionProxyInterceptor"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.ManagedEntityInterceptor"/>
+    </component>
+    <component class="java" precedence="20" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.ManagedHibernateSession"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getSession" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params="Lorg.jboss.seam.Component;,"/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.ManagedPersistenceContext"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params="Lorg.jboss.seam.Component;,"/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getEntityManager" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.persistence.persistenceContexts"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.PersistenceContexts"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.persistence.persistenceProvider"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.persistence.PersistenceProvider"/>
+    </component>
+    <component class="java" name="org.jboss.seam.security.openid.openid"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.openid.OpenId"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="init" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.actor"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.Actor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.businessProcess"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.BusinessProcess"/>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.BusinessProcessInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.jbpm"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.Jbpm"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="startup" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="shutdown" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.jbpmContext"
+     precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.ManagedJbpmContext"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getJbpmContext" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.pooledTask"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.PooledTask"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.bpm.pooledTaskInstanceList" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.PooledTaskInstanceList"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getPooledTaskInstanceList" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.processInstance"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.ProcessInstance"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getProcessInstance" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.bpm.processInstanceFinder" precedence="0" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.ProcessInstanceFinder"/>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.taskInstance"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.TaskInstance"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTaskInstance" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.taskInstanceList"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.TaskInstanceList"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTaskInstanceList" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.bpm.taskInstanceListForType" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.TaskInstanceListForType"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTaskInstanceList" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.bpm.taskInstancePriorityList" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.TaskInstancePriorityList"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getTaskInstanceList" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.bpm.transition"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.bpm.Transition"/>
+    </component>
+    <component class="java" name="org.jboss.seam.captcha.captcha"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.captcha.Captcha"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="init" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.captcha.captchaImage"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.captcha.CaptchaImage"/>
+    </component>
+    <component class="java" name="org.jboss.seam.pageflow.pageflow"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.pageflow.Pageflow"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.ajax4jsfFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.Ajax4jsfFilter"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.web.authenticationFilter" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.AuthenticationFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.cacheControlFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.CacheControlFilter"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.servlet.characterEncodingFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.CharacterEncodingFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.contextFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.ContextFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.exceptionFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.ExceptionFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.hotDeployFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.HotDeployFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.identityFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.IdentityFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.isUserInRole"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.IsUserInRole"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getMap" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.core.locale"
+     precedence="9" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.Locale"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getLocale" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.web.loggingFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.LoggingFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.multipartFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.MultipartFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.parameters"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.Parameters"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.redirectFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.RedirectFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.rewriteFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.RewriteFilter"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.servletContexts"
+     precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.ServletContexts"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.session"
+     precedence="20" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.Session"/>
+    </component>
+    <component class="java" name="org.jboss.seam.web.userPrincipal"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.UserPrincipal"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getUserPrincipal" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.web.wicketFilter"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.web.WicketFilter"/>
+     <methods>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="postReInitialization" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.el.referenceCache"
+     precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.el.JBossELReferenceCache"/>
+     <methods>
+      <method comp-types="DESTROY;">
+       <id class="method" name="stop" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="start" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.mail.mailSession"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.mail.MailSession"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getSession" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.mail.meldware"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.mail.Meldware"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.mail.meldwareUser"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.mail.MeldwareUser"/>
+    </component>
+    <component class="java" name="org.jboss.seam.document.documentStore"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.document.DocumentStore"/>
+    </component>
+    <component class="java" precedence="20" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.drools.ManagedWorkingMemory"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getStatefulSession" params=""/>
+      </method>
+      <method comp-types="DESTROY;">
+       <id class="method" name="destroy" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.drools.RuleAgent"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getRuleBase" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="createAgent" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.drools.RuleBase"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="compileRuleBase" params=""/>
+      </method>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getRuleBase" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.drools.spreadsheetComponent" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.drools.SpreadsheetCompiler"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.permission.permissionSearch"
+     precedence="0" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.permission.action.PermissionSearch"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.configurationFactory" precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.Configuration"/>
+    </component>
+    <component class="java" name="org.jboss.seam.security.credentials"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.Credentials"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.entityPermissionChecker"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.EntityPermissionChecker"/>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.facesSecurityEvents" precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.FacesSecurityEvents"/>
+     <methods>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="postAuthenticate" params="Lorg.jboss.seam.security.Identity;,"/>
+      </method>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="addLoginSuccessfulMessage" params=""/>
+      </method>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="addLoginFailedMessage" params="Ljavax.security.auth.login.LoginException;,"/>
+      </method>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="addAlreadyLoggedInMessage" params=""/>
+      </method>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="addNotLoggedInMessage" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.security.identity"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.Identity"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.security.tokenStore"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.JpaTokenStore"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.security.rememberMe"
+     precedence="0" scope="SESSION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.RememberMe"/>
+     <methods>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="quietLogin" params=""/>
+      </method>
+      <method comp-types="OBSERVER;"/>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="credentialsUpdated" params=""/>
+      </method>
+      <method comp-types="OBSERVER;"/>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="loggedOut" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.SecurityInterceptor"/>
+    </component>
+    <component class="java" name="org.jboss.seam.mock.mockSecureEntity"
+     precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.mock.MockSecureEntity"/>
+     <bean-types>
+      <bean-type name="ENTITY">
+       <value-info value="true"/>
+      </bean-type>
+     </bean-types>
+    </component>
+    <component class="java" name="org.jboss.seam.framework.currentDate"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.framework.CurrentDate"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getCurrentDate" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.framework.currentDatetime" precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.framework.CurrentDatetime"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getCurrentDatetime" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.framework.currentTime"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.framework.CurrentTime"/>
+     <methods>
+      <method comp-types="UNWRAP;">
+       <id class="method" name="getCurrentTime" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" precedence="20" scope="UNSPECIFIED">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.framework.EntityNotFoundException"/>
+    </component>
+    <component class="java" precedence="20" scope="CONVERSATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.framework.Home"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java"
+     name="org.jboss.seam.security.identityManager" precedence="0" scope="EVENT">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.IdentityManager"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="create" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.security.identityStore"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.JpaIdentityStore"/>
+     <methods>
+      <method comp-types="OBSERVER;">
+       <id class="method" name="setUserAccountForSession" params=""/>
+      </method>
+      <method comp-types="CREATE;">
+       <id class="method" name="init" params=""/>
+      </method>
+     </methods>
+    </component>
+    <component class="java" name="org.jboss.seam.security.identityStore"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.LdapIdentityStore"/>
+    </component>
+    <component class="java" name="org.jboss.seam.security.passwordHash"
+     precedence="0" scope="STATELESS">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.security.management.PasswordHash"/>
+    </component>
+    <component class="java" name="org.jboss.seam.exception.exceptions"
+     precedence="0" scope="APPLICATION">
+     <id class="type" project="admin-ejb" type="org.jboss.seam.exception.Exceptions"/>
+     <methods>
+      <method comp-types="CREATE;">
+       <id class="method" name="initialize" params=""/>
+      </method>
+     </methods>
+    </component>
+   </components>
+   <factories>
+    <factory auto-create="false" class="java" name="org.jboss.seam.core.eventContext">
+     <id class="method" name="getEventContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+     <java-source class="method" name="getEventContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </factory>
+    <factory auto-create="false" class="java" name="org.jboss.seam.core.methodContext">
+     <id class="method" name="getMethodContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+     <java-source class="method" name="getMethodContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </factory>
+    <factory auto-create="false" class="java" name="org.jboss.seam.core.pageContext">
+     <id class="method" name="getPageContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+     <java-source class="method" name="getPageContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </factory>
+    <factory auto-create="false" class="java" name="org.jboss.seam.core.sessionContext">
+     <id class="method" name="getSessionContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+     <java-source class="method" name="getSessionContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </factory>
+    <factory auto-create="false" class="java" name="org.jboss.seam.core.applicationContext">
+     <id class="method" name="getApplicationContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+     <java-source class="method" name="getApplicationContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </factory>
+    <factory auto-create="false" class="java" name="org.jboss.seam.core.conversationContext">
+     <id class="method" name="getConversationContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+     <java-source class="method" name="getConversationContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </factory>
+    <factory auto-create="false" class="java" name="org.jboss.seam.core.businessProcessContext">
+     <id class="method" name="getBusinessProcessContext" params=""
+      project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+     <java-source class="method" name="getBusinessProcessContext"
+      params="" project="admin-ejb" type="org.jboss.seam.core.Contexts"/>
+    </factory>
+    <factory auto-create="false" class="java"
+     name="org.jboss.seam.core.conversationList" scope="PAGE">
+     <id class="method" name="getConversationEntryList" params=""
+      project="admin-ejb" type="org.jboss.seam.core.ConversationList"/>
+     <java-source class="method" name="getConversationEntryList"
+      params="" project="admin-ejb" type="org.jboss.seam.core.ConversationList"/>
+    </factory>
+    <factory auto-create="false" class="java"
+     name="org.jboss.seam.core.conversationStack" scope="PAGE">
+     <id class="method" name="getConversationEntryStack" params=""
+      project="admin-ejb" type="org.jboss.seam.core.ConversationStack"/>
+     <java-source class="method" name="getConversationEntryStack"
+      params="" project="admin-ejb" type="org.jboss.seam.core.ConversationStack"/>
+    </factory>
+    <factory auto-create="false" class="java"
+     name="org.jboss.seam.theme.theme" scope="EVENT">
+     <id class="method" name="getTheme" params="" project="admin-ejb" type="org.jboss.seam.theme.Theme"/>
+     <java-source class="method" name="getTheme" params=""
+      project="admin-ejb" type="org.jboss.seam.theme.Theme"/>
+    </factory>
+    <factory auto-create="false" class="messages"
+     name="org.jboss.seam.international.messages" scope="EVENT">
+     <id class="method" name="getMessages" params="" project="admin-ejb" type="org.jboss.seam.international.Messages"/>
+     <java-source class="method" name="getMessages" params=""
+      project="admin-ejb" type="org.jboss.seam.international.Messages"/>
+    </factory>
+    <factory auto-create="false" class="java" name="org.jboss.seam.bpm.processInstanceList">
+     <id class="method" name="getProcessInstanceList" params=""
+      project="admin-ejb" type="org.jboss.seam.bpm.ProcessInstanceFinder"/>
+     <java-source class="method" name="getProcessInstanceList" params=""
+      project="admin-ejb" type="org.jboss.seam.bpm.ProcessInstanceFinder"/>
+    </factory>
+    <factory auto-create="false" class="java"
+     name="org.jboss.seam.security.configuration" scope="APPLICATION">
+     <id class="method" name="getConfiguration" params=""
+      project="admin-ejb" type="org.jboss.seam.security.Configuration"/>
+     <java-source class="method" name="getConfiguration" params=""
+      project="admin-ejb" type="org.jboss.seam.security.Configuration"/>
+    </factory>
+    <factory class="xml" name="org.jboss.seam.web.webSession" scope="stateless">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-seam-2.2.2.Final.jar/meta-inf/components.xml/org.jboss.seam.web.webSession" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="value">
+       <value-info attr="value" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="method">
+       <value-info attr="method" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+    </factory>
+    <factory class="xml" name="facesMessages" scope="stateless">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-seam-2.2.2.Final.jar/meta-inf/components.xml/facesMessages" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="value">
+       <value-info attr="value" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="method">
+       <value-info attr="method" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+    </factory>
+    <factory class="xml" name="org.jboss.seam.faces.facesMessages" scope="stateless">
+     <id class="model-object"
+      path="FileSystems/lib-jboss-seam-2.2.2.Final.jar/meta-inf/components.xml/org.jboss.seam.faces.facesMessages" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="value">
+       <value-info attr="value" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="method">
+       <value-info attr="method" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+    </factory>
+   </factories>
+   <imports>
+    <import value="org.jboss.seam.core"/>
+    <import value="org.jboss.seam.cache"/>
+    <import value="org.jboss.seam.transaction"/>
+    <import value="org.jboss.seam.framework"/>
+    <import value="org.jboss.seam.web"/>
+    <import value="org.jboss.seam.faces"/>
+    <import value="org.jboss.seam.international"/>
+    <import value="org.jboss.seam.theme"/>
+    <import value="org.jboss.seam.pageflow"/>
+    <import value="org.jboss.seam.bpm"/>
+    <import value="org.jboss.seam.jms"/>
+    <import value="org.jboss.seam.mail"/>
+    <import value="org.jboss.seam.security"/>
+    <import value="org.jboss.seam.security.management"/>
+    <import value="org.jboss.seam.security.permission"/>
+    <import value="org.jboss.seam.security.openid"/>
+    <import value="org.jboss.seam.captcha"/>
+    <import value="org.jboss.seam.excel.exporter"/>
+   </imports>
+  </path>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="/admin-web/src/main/webapp/WEB-INF/components.xml">
+   <components>
+    <component class="xml" isClassNameGuessed="true" name="org.jboss.seam.core.init">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/org.jboss.seam.core.init" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="installed">
+       <value-info attr="installed" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="precedence">
+       <value-info attr="precedence" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="jndi-name">
+       <value-info attr="jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="auto-create">
+       <value-info attr="auto-create" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+     <property name="distributable">
+      <id class="string" value="distributable"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;distributable" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="distributable" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="interceptors">
+      <id class="model-object" path="/interceptors" project="admin-web"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="name" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value class="list">
+       <id class="model-object" path="." project="admin-web"/>
+      </value>
+     </property>
+     <property name="securityEnabled">
+      <id class="string" value="security-enabled"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;security-enabled" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="security-enabled" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="debug">
+      <id class="string" value="debug"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;debug" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="debug" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="jndiPattern">
+      <id class="string" value="jndi-pattern"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;jndi-pattern" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="jndi-pattern" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="transactionManagementEnabled">
+      <id class="string" value="transaction-management-enabled"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;transaction-management-enabled" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="transaction-management-enabled" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="userTransactionName">
+      <id class="string" value="user-transaction-name"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;user-transaction-name" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="user-transaction-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+    </component>
+    <component class="xml" isClassNameGuessed="true" name="org.jboss.seam.core.manager">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/org.jboss.seam.core.manager" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="installed">
+       <value-info attr="installed" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="precedence">
+       <value-info attr="precedence" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="jndi-name">
+       <value-info attr="jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="auto-create">
+       <value-info attr="auto-create" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+     <property name="defaultFlushMode">
+      <id class="string" value="default-flush-mode"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;default-flush-mode" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="default-flush-mode" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="parentConversationIdParameter">
+      <id class="string" value="parent-conversation-id-parameter"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;parent-conversation-id-parameter" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="parent-conversation-id-parameter" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="uriEncoding">
+      <id class="string" value="uri-encoding"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;uri-encoding" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="uri-encoding" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="conversationTimeout">
+      <id class="string" value="conversation-timeout"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;conversation-timeout" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="conversation-timeout" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="conversationIdParameter">
+      <id class="string" value="conversation-id-parameter"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;conversation-id-parameter" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="conversation-id-parameter" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="concurrentRequestTimeout">
+      <id class="string" value="concurrent-request-timeout"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;concurrent-request-timeout" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="concurrent-request-timeout" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+    </component>
+    <component class="xml" isClassNameGuessed="true" name="org.jboss.seam.web.hotDeployFilter">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/org.jboss.seam.web.hotDeployFilter" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="installed">
+       <value-info attr="installed" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="precedence">
+       <value-info attr="precedence" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="jndi-name">
+       <value-info attr="jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="auto-create">
+       <value-info attr="auto-create" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+     <property name="urlPattern">
+      <id class="string" value="url-pattern"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;url-pattern" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="url-pattern" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="regexUrlPattern">
+      <id class="string" value="regex-url-pattern"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;regex-url-pattern" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="regex-url-pattern" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="disabled">
+      <id class="string" value="disabled"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;disabled" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="disabled" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+    </component>
+    <component class="xml" isClassNameGuessed="true" name="org.jboss.seam.web.contextFilter">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/org.jboss.seam.web.contextFilter" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="installed">
+       <value-info attr="installed" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="precedence">
+       <value-info attr="precedence" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="jndi-name">
+       <value-info attr="jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="auto-create">
+       <value-info attr="auto-create" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+     <property name="urlPattern">
+      <id class="string" value="url-pattern"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;url-pattern" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="url-pattern" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="regexUrlPattern">
+      <id class="string" value="regex-url-pattern"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;regex-url-pattern" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="regex-url-pattern" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="disabled">
+      <id class="string" value="disabled"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;disabled" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="disabled" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+    </component>
+    <component class="xml" isClassNameGuessed="true" name="entityManager">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/entityManager" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="installed">
+       <value-info attr="installed" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="precedence">
+       <value-info attr="precedence" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="jndi-name">
+       <value-info attr="jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="auto-create">
+       <value-info attr="auto-create" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+     <property name="persistenceUnitJndiName">
+      <id class="string" value="persistence-unit-jndi-name"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;persistence-unit-jndi-name" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="persistence-unit-jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="entityManagerFactory">
+      <id class="string" value="entity-manager-factory"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;entity-manager-factory" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="entity-manager-factory" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="filters">
+      <id class="model-object" path="/filters" project="admin-web"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="name" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value class="list">
+       <id class="model-object" path="." project="admin-web"/>
+      </value>
+     </property>
+    </component>
+    <component class="xml" isClassNameGuessed="true" name="org.jboss.seam.security.identity">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/org.jboss.seam.security.identity" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="installed">
+       <value-info attr="installed" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="precedence">
+       <value-info attr="precedence" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="jndi-name">
+       <value-info attr="jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="auto-create">
+       <value-info attr="auto-create" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+     <property name="authenticateMethod">
+      <id class="string" value="authenticate-method"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;authenticate-method" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="authenticate-method" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="jaasConfigName">
+      <id class="string" value="jaas-config-name"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;jaas-config-name" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="jaas-config-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="rememberMe">
+      <id class="string" value="remember-me"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;remember-me" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="remember-me" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+    </component>
+    <component class="xml" isClassNameGuessed="true" name="org.jboss.seam.mail.mailSession">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/org.jboss.seam.mail.mailSession" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="installed">
+       <value-info attr="installed" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="precedence">
+       <value-info attr="precedence" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="jndi-name">
+       <value-info attr="jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="auto-create">
+       <value-info attr="auto-create" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+     <property name="port">
+      <id class="string" value="port"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;port" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="port" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="username">
+      <id class="string" value="username"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;username" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="username" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="host">
+      <id class="string" value="host"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;host" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="host" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="tls">
+      <id class="string" value="tls"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;tls" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="tls" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="sessionJndiName">
+      <id class="string" value="session-jndi-name"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;session-jndi-name" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="session-jndi-name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="ssl">
+      <id class="string" value="ssl"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;ssl" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="ssl" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="debug">
+      <id class="string" value="debug"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;debug" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="debug" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+     <property name="password">
+      <id class="string" value="password"/>
+      <attributes>
+       <entry name="name">
+        <value-info attr="&amp;password" class="xml">
+         <object class="model-object" path="." project="admin-web"/>
+        </value-info>
+       </entry>
+      </attributes>
+      <value>
+       <id class="string" value="value"/>
+       <value-info attr="password" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </value>
+     </property>
+    </component>
+   </components>
+   <factories>
+    <factory class="xml" name="children_map" scope="event">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/components.xml/children_map" project="admin-web"/>
+     <attributes>
+      <entry name="scope">
+       <value-info attr="scope" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="name">
+       <value-info attr="name" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="value">
+       <value-info attr="value" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+      <entry name="method">
+       <value-info attr="method" class="xml">
+        <object class="model-object" path="." project="admin-web"/>
+       </value-info>
+      </entry>
+     </attributes>
+    </factory>
+   </factories>
+  </path>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-api/2.5.2.Final/picketlink-api-2.5.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/com/google/code/guice/guice/2.0/guice-2.0.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/santuario/xmlsec/1.5.1/xmlsec-1.5.1.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/gnu-getopt/getopt/1.0.13/getopt-1.0.13.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/seam/jboss-seam-pdf/2.2.2.Final/jboss-seam-pdf-2.2.2.Final.jar">
+   <components>
+    <component class="java" name="org.jboss.seam.pdf.pdfKeyStore"
+     precedence="20" scope="APPLICATION">
+     <id class="type" project="admin-web" type="org.jboss.seam.pdf.KeyStoreConfig"/>
+    </component>
+   </components>
+  </path>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-config/2.5.2.Final/picketlink-config-2.5.2.Final.jar"/>
+ </paths>
+</seam-project>

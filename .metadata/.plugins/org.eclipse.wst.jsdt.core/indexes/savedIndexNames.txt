@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\jboss-as-7.1.3.Final-fighting-mvn\eclipse_kepler32\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2883718133.index
+72554797.index
+742043710.index
+1571362224.index
+934250638.index
+681855080.index
