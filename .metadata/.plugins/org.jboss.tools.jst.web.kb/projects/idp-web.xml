@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects>
+  <project name="crypto-15export"/>
   <project name="idp-lib"/>
   <project name="common-ilib"/>
-  <project name="crypto-15export"/>
  </depends-on-projects>
  <used-by-projects/>
  <paths>
@@ -36,21 +36,21 @@
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-clustering-jgroups/7.1.3.Final/jboss-as-clustering-jgroups-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-network/7.1.3.Final/jboss-as-network-7.1.3.Final.jar"/>
-  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-jmx/7.1.3.Final/jboss-as-jmx-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/jbossts/jbossjts-integration/4.16.4.Final/jbossjts-integration-4.16.4.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-jmx/7.1.3.Final/jboss-as-jmx-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-clustering-api/7.1.3.Final/jboss-as-clustering-api-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar"/>
-  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-remoting/7.1.3.Final/jboss-as-remoting-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-remoting/7.1.3.Final/jboss-as-remoting-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.1.Final/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-threads/7.1.3.Final/jboss-as-threads-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/invocation/jboss-invocation/1.1.1.Final/jboss-invocation-1.1.1.Final.jar"/>
-  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-idm-api/2.5.2.Final/picketlink-idm-api-2.5.2.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/logging/jboss-logging-processor/1.0.3.Final/jboss-logging-processor-1.0.3.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-idm-api/2.5.2.Final/picketlink-idm-api-2.5.2.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-domain-http-interface/7.1.3.Final/jboss-as-domain-http-interface-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/metadata/jboss-metadata-ear/7.0.4.Final/jboss-metadata-ear-7.0.4.Final.jar"/>
-  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/threads/jboss-threads/2.0.0.GA/jboss-threads-2.0.0.GA.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/metadata/jboss-metadata-common/7.0.4.Final/jboss-metadata-common-7.0.4.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/threads/jboss-threads/2.0.0.GA/jboss-threads-2.0.0.GA.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketbox/picketbox-commons/1.0.0.final/picketbox-commons-1.0.0.final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/security/jboss-negotiation-spnego/2.2.1.Final/jboss-negotiation-spnego-2.2.1.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/picketlink/picketlink-federation/2.5.2.Final/picketlink-federation-2.5.2.Final.jar"/>
@@ -154,13 +154,13 @@
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-transactions/7.1.3.Final/jboss-as-transactions-7.1.3.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/marshalling/jboss-marshalling-river/1.3.15.GA/jboss-marshalling-river-1.3.15.GA.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/marshalling/jboss-marshalling/1.3.15.GA/jboss-marshalling-1.3.15.GA.jar"/>
-  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/web/jbossweb/7.0.17.Final/jbossweb-7.0.17.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/web/jbossweb/7.0.17.Final/jbossweb-7.0.17.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/jboss-remote-naming/1.0.4.Final/jboss-remote-naming-1.0.4.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/infinispan/infinispan-cachestore-remote/5.1.7.Final/infinispan-cachestore-remote-5.1.7.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/ru/crypto/ASN1P/2.0/ASN1P-2.0.jar"/>
-  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/remotingjmx/remoting-jmx/1.0.4.Final/remoting-jmx-1.0.4.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/spec/javax/security/jacc/jboss-jacc-api_1.4_spec/1.0.2.Final/jboss-jacc-api_1.4_spec-1.0.2.Final.jar"/>
+  <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/remotingjmx/remoting-jmx/1.0.4.Final/remoting-jmx-1.0.4.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/apache/santuario/xmlsec/1.5.1/xmlsec-1.5.1.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/metadata/jboss-metadata-web/7.0.4.Final/jboss-metadata-web-7.0.4.Final.jar"/>
   <path value="C:/jboss-as-7.1.3.Final-fighting-mvn/maven/repository_cud/org/jboss/as/jboss-as-controller/7.1.3.Final/jboss-as-controller-7.1.3.Final.jar"/>
