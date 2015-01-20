@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\jboss-as-7.1.3.Final-fighting-mvn\git\testSamples\OpenSAMLAndExamples\OpenSAML"/>
 			<item value="C:\jboss-as-7.1.3.Final-fighting-mvn\git\acc\ru.spb.iac.cud"/>
 		</list>
 		<list key="projectNameTemplate">

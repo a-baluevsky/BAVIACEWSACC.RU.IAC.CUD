@@ -4,4 +4,11 @@
 		<item value="https://github.com:443/a-baluevsky/ACC.RU.IAC.CUD.git"/>
 		<item value="https://github.com/a-baluevsky/ACC.RU.IAC.CUD"/>
 	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.CheckoutDialog.dialogBounds">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="220" key="DIALOG_Y_ORIGIN"/>
+		<item value="462" key="DIALOG_HEIGHT"/>
+		<item value="701" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
 </section>

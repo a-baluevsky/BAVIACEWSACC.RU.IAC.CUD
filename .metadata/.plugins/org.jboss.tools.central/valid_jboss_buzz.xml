@@ -5,7 +5,7 @@
       <description>Pipes Output</description>
       <link>http://pipes.yahoo.com/pipes/pipe.info?_id=790c1cc25610e6b571d4857eaeb44fa4</link>
       <atom:link rel="next" href="http://pipes.yahoo.com/pipes/pipe.run?_id=790c1cc25610e6b571d4857eaeb44fa4&amp;_render=rss&amp;page=2" />
-      <pubDate>Fri, 16 Jan 2015 17:40:32 +0000</pubDate>
+      <pubDate>Mon, 19 Jan 2015 14:09:02 +0000</pubDate>
       <generator>http://pipes.yahoo.com/pipes/</generator>
       <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
          <title>This week in JBoss (15th January 2015): Shifting Gears!</title>
@@ -7107,4 +7107,4 @@ Petals Studio was also the pretext to start using <a rel="nofollow" target="_bla
          </media:content>
       <feedburner:origLink>https://mickaelistria.wordpress.com/2012/01/31/goodbye-petalslink-hello-jbossred-hat/</feedburner:origLink></item>
    </channel>
-</rss><!-- fe1.yql.bf1.yahoo.com compressed/chunked Fri Jan 16 17:40:28 UTC 2015 -->
+</rss><!-- fe8.yql.bf1.yahoo.com compressed/chunked Mon Jan 19 14:08:58 UTC 2015 -->
