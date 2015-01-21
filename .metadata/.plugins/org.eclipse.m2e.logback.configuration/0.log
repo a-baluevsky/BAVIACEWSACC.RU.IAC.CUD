@@ -973,3 +973,9 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/user-ejb/pom.x
 2015-01-20 14:38:41,830 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
 2015-01-20 14:38:42,121 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:4066
 2015-01-20 14:53:21,375 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
+2015-01-21 17:08:18,545 [Worker-79] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 2
+2015-01-21 17:09:04,011 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://hedgehog.lan.iac.spb.ru/nexus/content/repositories/central/org/opensaml/opensaml/2.5.1-1/opensaml-2.5.1-1-sources.jar
+2015-01-21 17:09:04,201 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://hedgehog.lan.iac.spb.ru/nexus/content/repositories/central/org/opensaml/opensaml/2.5.1-1/opensaml-2.5.1-1-sources.jar
+2015-01-21 17:46:38,162 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2015-01-21 17:46:38,252 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:2015
+2015-01-21 18:04:58,114 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
