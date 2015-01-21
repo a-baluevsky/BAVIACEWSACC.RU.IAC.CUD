@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="cud.test.services.AuditServiceClient"/>
+<fullyQualifiedTypeName name="java.security.acl.Group"/>
+<fullyQualifiedTypeName name="java.io.Console"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="ru.spb.iac.cud.items.Group"/>
 </qualifiedTypeNameHistroy>
